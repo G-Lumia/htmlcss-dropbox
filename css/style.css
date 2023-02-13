@@ -25,7 +25,7 @@ html{
 }
 
 body{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: white;
 }
 
@@ -36,9 +36,17 @@ a{
 
 header{
     background-color: var(--hero);
+    width:100%;
 }
 
 /* utility */
+
+.wrapper{
+    height:100vh;
+    width:100%;
+    margin-top: 50px;
+    overflow: hidden;
+}
 
 .container{
     width:1200px;
@@ -58,18 +66,21 @@ header{
 
 .d-flex{
     display:flex;
-    flex-flow: row wrap;
+    flex-flow: row;
 }
 
 .c-flex{
     display:flex;
-    flex-flow: column wrap;
+    flex-flow: column;
 }
 
 .j-between{
     justify-content: space-between;
 }
 
+.a-between{
+    align-content:space-between;
+}
 .j-center{
     justify-content: center;
 }
@@ -86,7 +97,7 @@ header{
     gap: 20px;
 }
 
-.blue-btn{
+a.blue-btn{
     background-color: var(--button);
     color:white;
     padding: 5px 10px;
@@ -98,7 +109,7 @@ nav{
     position: fixed;
     top:0;
     left:0;
-    height:10vh;
+    height:50px;
     width:100%;
     z-index: 5;
     background-color: var(--nav);
@@ -113,11 +124,34 @@ nav div img{
     font-size: 0.8rem;
 }
 
+/* hero */
+
+.hero{
+    text-align: left;
+    padding: 50px 100px;
+}
+
+.hero h1{
+    font-size:4rem;
+}
+.hero-text{
+    width:60%;
+    padding-top:50px;
+}
+
+.hero-img{
+    position:relative;
+    top:90px;
+    width:100%;
+}
+
+.hero i{
+    font-size:40px;
+}
+
+
 /* main */
 
-.wrapper{
-    height:100vh;
-    width:100%;
-    margin-top: 10vh;
-    overflow: hidden;
+main{
+    padding-top:100px;
 }
