@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --hero: #B4D0E7;
+    --button: #0061FF;
+    --header: #FFFFFF;
+    --designit: #A2D39B;
+    --a-s-u: #61082B;
+    --designit-big: #F5F5F5;
+    --world-bicycle: #D5001F;
+    --hearst: #B4D0E7;
+    --florida: #0093CE;
+    --topps: #FF1C1C;
+    --lonely-planet: #0D2481;
+    --clear-channel: #FFD830;
+    --footer: #000000;
+}
