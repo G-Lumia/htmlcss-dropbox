@@ -32,6 +32,7 @@ body{
 .link{
     text-decoration: none;
     color:black;
+    font-size:10px;
 }
 
 img{
@@ -64,7 +65,7 @@ header{
 }
 
 .debug{
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.3)
 }
 
 .d-flex{
@@ -96,6 +97,10 @@ header{
     padding: 10px 10px;
 }
 
+.pad-20{
+    padding: 20px 20px;
+}
+
 .pad-y{
     padding: 15px 0px;
 }
@@ -116,10 +121,14 @@ header{
     gap:40px;
 }
 
+.w-70{
+    width:70%;
+}
+
 a.blue-btn{
     background-color: var(--button);
     color:white;
-    padding: 5px 10px;
+    padding: 10px 10px;
 }
 
 .text-left{
@@ -214,4 +223,11 @@ h3{
 .big-center{
     width:100%;
     text-align: center;
+}
+
+.border-bot{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+section.small-container{
+    margin: 50px auto;
 }
