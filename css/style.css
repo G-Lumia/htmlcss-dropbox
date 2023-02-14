@@ -97,6 +97,9 @@ a{
     justify-content: center;
 }
 
+.j-around{
+    justify-content: space-around;
+}
 .a-center{
     align-items: center;
 }
@@ -119,6 +122,10 @@ a{
 
 .pad-y-50{
     padding: 50px 0px;
+}
+
+.pad-y-100{
+    padding: 100px 0px;
 }
 
 .gap-10{
@@ -148,6 +155,7 @@ a{
 .margin-y{
     margin: 40px 0px;
 }
+
 a.blue-btn{
     background-color: var(--button);
     color:white;
@@ -157,6 +165,7 @@ a.blue-btn{
 a.white-btn{
     color:black;
     padding: 10px 10px;
+    background-color: white;
 }
 
 .text-left{
@@ -280,7 +289,7 @@ div.plan-pad div{
     font-size: 0.7rem;
 }
 
-/* <!-- partners' logos --> */
+/* partners' logos */
 
 #clients{
     width:100%;
@@ -333,4 +342,15 @@ div.plan-pad div{
 
 #clear{
     background-color: var(--clear-channel);
+}
+
+/* start your free trial */
+
+#asu-color{
+    color:var(--a-s-u);
+}
+
+#trial{
+    background-color: var(--hearst);
+    width:100%;
 }
