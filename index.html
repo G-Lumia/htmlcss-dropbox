@@ -18,15 +18,15 @@
         <!-- fixed navigation bar -->
         <div class="d-flex j-between j-center a-center pad-10 gap-20">
             <img src="./img/logo-small.png" alt="small logo">
-            <a href="#" class="nav-link"> Perché Dropbox </a>
-            <a href="#" class="nav-link"> Funzioni </a>
-            <a href="#" class="nav-link"> Piani e Prezzi</a>
+            <a href="#" class="link"> Perché Dropbox </a>
+            <a href="#" class="link"> Funzioni </a>
+            <a href="#" class="link"> Piani e Prezzi</a>
         </div>
         <div class="d-flex j-between j-center a-center pad-10 gap-20">
-            <a href="#" class="nav-link"> Supporto </a>
-            <a href="#" class="nav-link"> Contatta l'Ufficio Vendite </a>
-            <a href="#" class="nav-link"> Accedi </a>
-            <a href="#" class="nav-link blue-btn"> Inizia </a>
+            <a href="#" class="link"> Supporto </a>
+            <a href="#" class="link"> Contatta l'Ufficio Vendite </a>
+            <a href="#" class="link"> Accedi </a>
+            <a href="#" class="link blue-btn"> Inizia </a>
         </div>
     </nav>
 
@@ -34,7 +34,7 @@
     <div class="wrapper debug">
         <header>
              <!-- hero container -->
-            <div class="container hero debug">
+            <div class="container hero">
                 <h1>
                     Tutto ciò che ti serve per il lavoro, in un unico posto
                 </h1>
@@ -46,14 +46,14 @@
                                 animi exercitationem repellendus sapiente perspiciatis.
                         </div>
                         <div>
-                            <a class="blue-btn" href="#">
+                            <a class="link blue-btn" href="#">
                                 Inizia la tua prova gratuita
                             </a>
                         </div>
                         <div>
                                 Annulla in qualsiasi momento
                         </div>
-                        <i class="fa-solid fa-arrow-down"></i>
+                        <a class="link" href="#plans"> <i class="fa-solid fa-arrow-down"></i> </a>
                     </div>
                     <img class="hero-img" src="./img/jumbo.png" alt="jumbo image">
                 </div>
@@ -62,11 +62,83 @@
 
         <main class="debug">
 
-            <section class="small-container hero debug">
+            <section id="plans" class="small-container">
                 <!-- plan's choices -->
                 <h2>
                     Trova il piano business che fa per te
                 </h2>
+
+                <div class="small-container">
+
+                    <div class="pad-10">
+                        <form>
+                            <input type="radio" id="monthly" name="plan" value="Fatturazione mensile">
+                            <label for="monthly">Fatturazione mensile</label>
+                            <input type="radio" id="annual" name="plan" value="Fatturazione annuale">
+                            <label for="annual">Fatturazione annuale</label>
+                        </form>
+                    </div>
+
+                    <div class="d-flex j-between j-center">
+                        <div class="c-flex plan j-center a-center debug">
+                            <div>
+                                <i class="fa-solid fa-user"></i>
+                                Singolo
+                            </div>
+                            <div class="text-left plan-pad">
+                                <div>
+                                    <h3>
+                                        Professional
+                                    </h3>
+                                    <h4>
+                                        12.00 &euro;
+                                    </h4>
+                                    <p class="plan-text">
+                                        /mese
+                                    </p>
+                                </div>
+                                <div class="d-flex gap-10">
+                                    <i class="fa-solid fa-user"></i>
+                                    1 utente
+                                </div>
+
+                                <div class="d-flex gap-10">
+                                    <i class="fa-solid fa-folder"></i>
+                                    5 TB di spazio di archiviazione sicuro
+                                </div>
+                                
+                                <div class="d-flex gap-10">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    Funzioni di produttività premium e condivisione file semplice e sicura
+                                </div>
+
+                                <div class="d-flex j-center">
+                                    <a class="link blue-btn" href="#"> Prova gratis per 30 giorni </a>
+                                </div>
+
+                                <div>
+                                    oppure <a href="#"> acquista ora </a>
+                                </div>
+                                <div>
+                                    <hr class="small">
+                                </div>
+                                <div>
+                                    <h4>
+                                        Punti Salienti del Piano
+                                    </h4>
+                                </div>
+                                <div class="plan-points">
+                                    <p>
+                                        Invia file fino a 100 GB con Dropbox Transfert
+                                    </p>
+                                    <p>
+                                        Cartelle offline su dispositivi mobili
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section class="small-container debug">
