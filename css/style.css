@@ -44,13 +44,16 @@ header{
     width:100%;
 }
 
+a{
+    color:var(--button);
+}
+
 /* utility */
 
 .wrapper{
     height:100vh;
     width:100%;
     margin-top: 50px;
-    overflow: scroll;
 }
 
 .container{
@@ -71,6 +74,11 @@ header{
 .d-flex{
     display:flex;
     flex-flow: row;
+}
+
+.row-wrap{
+    display:flex;
+    flex-flow: row wrap;
 }
 
 .c-flex{
@@ -226,6 +234,12 @@ main{
     padding-top:100px;
 }
 
+section.small-container{
+    margin: 50px auto;
+}
+
+/* plan choices */
+
 .plan{
     width:calc(100% / 3);
 }
@@ -246,6 +260,28 @@ div.plan-pad div{
     padding: 10px 0px;
 }
 
-section.small-container{
-    margin: 50px auto;
+/* dropbox business */
+
+.business{
+    padding:10px;
+    width:calc(100% / 3 - 20px);
+}
+
+.business img{
+    width:100%;
+}
+
+.row-wrap p{
+    padding-top:10px;
+    font-size: 0.7rem;
+}
+
+/* <!-- partners' logos --> */
+
+#clients{
+    width:100%;
+}
+
+.big-logo-square{
+    width: calc(100% / 3);
 }
