@@ -284,4 +284,14 @@ div.plan-pad div{
 
 .big-logo-square{
     width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.logo-square{
+    width: 50%;
+    height: auto;
+}
+
+.logo-square img{
+    width:50%;
 }
