@@ -64,70 +64,74 @@
 
             <section id="plans" class="small-container">
                 <!-- plan's choices -->
-                <h2>
-                    Trova il piano business che fa per te
-                </h2>
+                <div>
+                    <h2>
+                        Trova il piano business che fa per te
+                    </h2>
+                    <form class="pad-y-50">
+                        <input type="radio" id="monthly" name="plan" value="Fatturazione mensile">
+                        <label for="monthly">Fatturazione mensile</label>
+                        <input type="radio" id="annual" name="plan" value="Fatturazione annuale">
+                        <label for="annual">Fatturazione annuale</label>
+                    </form>
+                </div>
 
                 <div class="small-container">
+                    <div class="d-flex j-between j-center gap-20">
+                        <div class="c-flex plan a-center debug">
 
-                    <div class="pad-10">
-                        <form>
-                            <input type="radio" id="monthly" name="plan" value="Fatturazione mensile">
-                            <label for="monthly">Fatturazione mensile</label>
-                            <input type="radio" id="annual" name="plan" value="Fatturazione annuale">
-                            <label for="annual">Fatturazione annuale</label>
-                        </form>
-                    </div>
-
-                    <div class="d-flex j-between j-center">
-                        <div class="c-flex plan j-center a-center debug">
-                            <div>
+                            <div class="pad-y big-center">
                                 <i class="fa-solid fa-user"></i>
                                 Singolo
                             </div>
+
                             <div class="text-left plan-pad">
-                                <div>
+                                <div class="c-flex gap-10 pad-y">
                                     <h3>
                                         Professional
                                     </h3>
                                     <h4>
-                                        12.00 &euro;
+                                       &euro;  12.00
                                     </h4>
                                     <p class="plan-text">
                                         /mese
                                     </p>
                                 </div>
-                                <div class="d-flex gap-10">
-                                    <i class="fa-solid fa-user"></i>
-                                    1 utente
+
+                                <div class="pad-y">
+                                    <div class="d-flex gap-10">
+                                        <i class="fa-solid fa-user"></i>
+                                        1 utente
+                                    </div>
+
+                                    <div class="d-flex gap-10">
+                                        <i class="fa-solid fa-folder"></i>
+                                        5 TB di spazio di archiviazione sicuro
+                                    </div>
+                                    
+                                    <div class="d-flex gap-10">
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                        Funzioni di produttività premium e condivisione file semplice e sicura
+                                    </div>
                                 </div>
 
-                                <div class="d-flex gap-10">
-                                    <i class="fa-solid fa-folder"></i>
-                                    5 TB di spazio di archiviazione sicuro
-                                </div>
-                                
-                                <div class="d-flex gap-10">
-                                    <i class="fa-solid fa-share-nodes"></i>
-                                    Funzioni di produttività premium e condivisione file semplice e sicura
+                                <div class="d-flex j-center pad-y">
+                                    <a class="link blue-btn big-center" href="#"> Prova gratis per 30 giorni </a>
                                 </div>
 
-                                <div class="d-flex j-center">
-                                    <a class="link blue-btn" href="#"> Prova gratis per 30 giorni </a>
-                                </div>
-
-                                <div>
+                                <div class="pad-y">
                                     oppure <a href="#"> acquista ora </a>
                                 </div>
+
                                 <div>
                                     <hr class="small">
                                 </div>
-                                <div>
+                                <div class="pad-y">
                                     <h4>
                                         Punti Salienti del Piano
                                     </h4>
                                 </div>
-                                <div class="plan-points">
+                                <div class="c-flex gap-20 plan-points">
                                     <p>
                                         Invia file fino a 100 GB con Dropbox Transfert
                                     </p>
@@ -137,7 +141,144 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="c-flex plan a-center debug">
+
+                            <div class="pad-y big-center">
+                                <i class="fa-solid fa-people-group"></i>
+                                Team
+                            </div>
+
+                            <div class="text-left plan-pad">
+                                <div class="c-flex gap-10 pad-y">
+                                    <h3>
+                                        Advanced
+                                    </h3>
+                                    <h4>
+                                       &euro;  18.00
+                                    </h4>
+                                    <p class="plan-text">
+                                        /utente/mese
+                                    </p>
+                                </div>
+
+                                <div class="pad-y">
+                                    <div class="d-flex gap-10">
+                                        <i class="fa-solid fa-user"></i>
+                                        3 o più utenti
+                                    </div>
+
+                                    <div class="d-flex gap-10">
+                                        <i class="fa-solid fa-folder"></i>
+                                        Tutto lo spazio di cui ha bisogno il tuo team
+                                    </div>
+                                    
+                                    <div class="d-flex gap-10">
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                        Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                                    </div>    
+                                </div>
+
+                                <div class="d-flex j-center pad-y">
+                                    <a class="link blue-btn big-center" href="#"> Prova gratis per 30 giorni </a>
+                                </div>
+
+                                <div class="pad-y">
+                                    oppure <a href="#"> acquista ora </a>
+                                </div>
+
+                                <div>
+                                    <hr class="small">
+                                </div>
+                                <div class="pad-y">
+                                    <h4>
+                                        Punti Salienti del Piano
+                                    </h4>
+                                </div>
+                                <div class="c-flex gap-20 plan-points">
+                                    <p>
+                                        Nessun limite di spazio per i file
+                                    </p>
+                                    <p>
+                                        Cartelle offline su dispositivi mobili
+                                    </p>
+                                    <p>
+                                        Risparmio del 50% rispetto alle iscrizioni singole
+                                    </p>
+                                    <p>
+                                        Possibilità di inserire nuovi membri del team
+                                    </p>
+                                    <p>
+                                        Gestione dei permessi in base ai ruoli
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-flex plan a-center debug">
+
+                            <div class="pad-y">
+                                <i class="fa-solid fa-building"></i>
+                                Azienda
+                            </div>
+
+                            <div class="text-left plan-pad">
+                                <div class="c-flex gap-10 pad-y">
+                                    <h3>
+                                        Enterprise
+                                    </h3>
+                                    <h4>
+                                        Contattaci
+                                    </h4>
+                                    <p class="plan-text">
+                                        -
+                                    </p>
+                                </div>
+
+                                <div class="pad-y">
+                                    <div class="d-flex gap-10">
+                                        <i class="fa-solid fa-user"></i>
+                                        10 o più utenti
+                                    </div>
+
+                                    <div class="d-flex gap-10">
+                                        <i class="fa-solid fa-folder"></i>
+                                       Soluzioni personalizzabili per la tua azienda
+                                    </div>
+                                    
+                                    <div class="d-flex gap-10">
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                        Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
+                                    </div>
+                                </div>
+
+                                <div class="d-flex j-center pad-y">
+                                    <a class="link blue-btn big-center" href="#"> Contattaci</a>
+                                </div>
+
+                                <div class="pad-y">
+                                    oppure <a href="#"> acquista ora </a>
+                                </div>
+
+                                <div>
+                                    <hr class="small">
+                                </div>
+                                <div class="pad-y">
+                                    <h4>
+                                        Punti Salienti del Piano
+                                    </h4>
+                                </div>
+                                <div class="c-flex gap-20 plan-points">
+                                    <p>
+                                        Cartelle offline su dispositivi mobili
+                                    </p>
+                                    <p>
+                                        Servizio assistenza 24/h
+                                    </p>
+                                    <p>Possibilità di personalizzazione totale</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    
                 </div>
             </section>
 
