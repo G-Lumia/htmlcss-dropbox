@@ -235,6 +235,16 @@ nav a{
     z-index: 1;
 }
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown li{
+    list-style: none;
+    padding-top: 5px;
+    font-size: 0.7rem;
+}
+
 /* hero */
 
 .hero{
@@ -259,7 +269,6 @@ nav a{
 .hero i{
     font-size:40px;
 }
-
 
 /* main */
 
