@@ -9,14 +9,22 @@
     --button: #0061FF;
     --nav: #FFFFFF;
     --designit: #A2D39B;
+    --designit-border: #d0ecd0;
     --a-s-u: #61082B;
+    --a-s-u-border: #a52a2a;
     --designit-big: #F5F5F5;
     --world-bicycle: #D5001F;
+    --world-bicycle-border: rgb(233, 121, 121);
     --hearst: #B4D0E7;
+    --hearst-border: #dbe5e9;
     --florida: #0093CE;
+    --florida-border: #53c2e7;
     --topps: #FF1C1C;
+    --topps-border: #dd9292;
     --lonely-planet: #0D2481;
+    --lonely-planet-border: #2e2beb;
     --clear-channel: #FFD830;
+    --clear-channel-border: #f3f2e0;
     --footer: #000000;
 }
 
@@ -315,38 +323,82 @@ div.plan-pad div{
     filter: invert(100%);
 }
 
+#auto-overflow{
+    overflow:auto;
+}
+
 /* logos colors tags */
 
 #design-it{
     background-color: var(--designit);
+    transition:0.5s;
+}
+
+#design-it:hover{
+    box-shadow: inset 0 0 0 15px  var(--designit-border);
 }
 
 #asu{
     background-color: var(--a-s-u);
+    transition:0.5s;
+}
+
+#asu:hover{
+    box-shadow: inset 0 0 0 15px  var(--a-s-u-border);
 }
 
 #uf{
     background-color: var(--florida);
+    transition:0.5s;
+}
+
+#uf:hover{
+    box-shadow: inset 0 0 0 15px  var(--florida-border);
 }
 
 #topps{
     background-color: var(--topps);
+    transition:0.5s;
+}
+
+#topps:hover{
+    box-shadow: inset 0 0 0 15px  var(--topps-border);
 }
 
 #bicycle{
     background-color: var(--world-bicycle);
+    transition:0.5s;
+}
+
+#bicycle:hover{
+    box-shadow: inset 0 0 0 15px  var(--world-bicycle-border);
 }
 
 #hearst{
     background-color: var(--hearst);
+    transition:0.5s;
+}
+
+#hearst:hover{
+    box-shadow: inset 0 0 0 15px  var(--hearst-border);
 }
 
 #lonely{
     background-color: var(--lonely-planet);
+    transition:0.5s;
+}
+
+#lonely:hover{
+    box-shadow: inset 0 0 0 15px  var(--lonely-planet-border);
 }
 
 #clear{
     background-color: var(--clear-channel);
+    transition:0.5s;
+}
+
+#clear:hover{
+    box-shadow: inset 0 0 0 15px  var(--clear-channel-border);
 }
 
 /* start your free trial */
@@ -386,4 +438,29 @@ footer select{
     opacity: 0.6;
     color: white;
     border:none;
+}
+
+/* hover */
+
+.blue-btn:hover{
+    opacity:0.7;
+}
+
+.blue-btn{
+    transition: 0.5s;
+}
+
+.white-btn:hover{
+    opacity:0.7;
+}
+
+.white-btn{
+    transition: 0.5s;
+}
+.hover-bot-border:hover{
+    border-bottom: 1px solid black;
+}
+
+.hover-bot-border{
+    transition: 0.5;
 }
